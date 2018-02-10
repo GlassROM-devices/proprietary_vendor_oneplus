@@ -78,7 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/oneplus/oneplus2/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/oneplus/oneplus2/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/oneplus/oneplus2/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/oneplus/oneplus2/proprietary/framework/qti-vzw-ims-internal.jar:system/framework/qti-vzw-ims-internal.jar \
     vendor/oneplus/oneplus2/proprietary/lib/hw/fingerprint.msm8994.so:system/lib/hw/fingerprint.msm8994.so \
     vendor/oneplus/oneplus2/proprietary/lib/libFNVfbEngineLib.so:system/lib/libFNVfbEngineLib.so \
@@ -278,7 +277,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/oneplus/oneplus2/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
@@ -289,7 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
-    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
@@ -337,6 +334,30 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/oneplus/oneplus2/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/oneplus/oneplus2/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/oneplus/oneplus2/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:system/vendor/lib64/libprotobuf-cpp-shit.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libois_rohm_bu63165gwl.so:system/vendor/lib/libois_rohm_bu63165gwl.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
@@ -501,7 +522,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     CNEService \
     com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     ims \
     imssettings \
