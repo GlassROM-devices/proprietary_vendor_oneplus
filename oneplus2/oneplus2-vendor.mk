@@ -257,6 +257,47 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_isp_cs_stats46.so:system/vendor/lib/libmmcamera_isp_cs_stats46.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_isp_demosaic44.so:system/vendor/lib/libmmcamera_isp_demosaic44.so \
+    vendor/oneplus/oneplus2/proprietary/bin/cnd:system/bin/cnd \
+    vendor/oneplus/oneplus2/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/oneplus/oneplus2/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/oneplus/oneplus2/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/oneplus/oneplus2/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/oneplus/oneplus2/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/oneplus/oneplus2/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/oneplus/oneplus2/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/oneplus/oneplus2/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/oneplus/oneplus2/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib/libwqe.so:system/vendor/lib/libwqe.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libNimsWrap.so:system/vendor/lib64/libNimsWrap.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libcneconn.so:system/vendor/lib64/libcneconn.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
+    vendor/oneplus/oneplus2/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_isp_demux40.so:system/vendor/lib/libmmcamera_isp_demux40.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_encoder46.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libmmcamera_isp_fovcrop_video46.so:system/vendor/lib/libmmcamera_isp_fovcrop_video46.so \
@@ -458,7 +499,9 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \
+    CNEService \
     com.qualcomm.location \
+    dpmserviceapp \
     qcrilmsgtunnel \
     ims \
     imssettings \
