@@ -350,7 +350,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/oneplus/oneplus2/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/oneplus/oneplus2/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
-    vendor/oneplus/oneplus2/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/oneplus/oneplus2/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libprotobuf-cpp-shit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-shit.so \
     vendor/oneplus/oneplus2/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
