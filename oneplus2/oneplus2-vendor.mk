@@ -85,6 +85,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/oneplus/oneplus2/proprietary/lib/libmorpho_video_refiner.so:system/lib/libmorpho_video_refiner.so \
     vendor/oneplus/oneplus2/proprietary/lib/libopcamerahw_interface.so:system/lib/libopcamerahw_interface.so \
+    vendor/oneplus/oneplus2/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/oneplus/oneplus2/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/oneplus/oneplus2/proprietary/lib64/hw/fingerprint.msm8994.so:system/lib64/hw/fingerprint.msm8994.so \
     vendor/oneplus/oneplus2/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/oneplus/oneplus2/proprietary/lib64/libopcamera.so:system/lib64/libopcamera.so \
@@ -523,6 +525,4 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     imssettings \
-    qcnvitems \
-    qcrilhook \
     pp_calib_data_jd35695_1080p_cmd_mode_dsi_panel
