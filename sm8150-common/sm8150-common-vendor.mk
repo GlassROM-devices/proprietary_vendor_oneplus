@@ -1595,8 +1595,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-apis.qti \
     NxpNfcNci \
     NxpSecureElement \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340 \
     WfdService \
     CneApp \
     IWlanService \
